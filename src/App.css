@@ -1,0 +1,45 @@
+/* body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6fb;
+}
+
+.app-content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+} */
+
+
+/* Reset & body */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+  background: #f4f6fb;
+  color: #333;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: #1E88E5;
+}
+a:hover { text-decoration: underline; }
+
+/* Buttons */
+button {
+  font-family: inherit;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Utility */
+.muted { color: #555; }
+.error { color: crimson; }

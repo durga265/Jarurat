@@ -1,0 +1,52 @@
+.table-container {
+  overflow-x: auto;
+  background: white;
+  padding: 16px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05);
+}
+
+.patient-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.patient-table th, .patient-table td {
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.patient-table th {
+  background: #f0f4f8;
+  color: #555;
+}
+
+.patient-table tr:hover {
+  background: #f9fbff;
+}
+
+.btn-view {
+  background: #1976D2;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.btn-view:hover {
+  background: #1565C0;
+}
+
+@media (max-width: 600px) {
+  .patient-table th, .patient-table td {
+    padding: 10px 8px;
+  }
+  .btn-view {
+    padding: 4px 8px;
+    font-size: 0.75rem;
+  }
+}
