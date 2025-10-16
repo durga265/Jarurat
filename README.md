@@ -28,5 +28,8 @@ This project is developed as part of an internship assignment for **Jarurat Care
 | 🧰 React Icons | Icons for professional UI |
 | ⚡ Vite | Development build tool |
 
+
+vercel link: https://jarurat-gold.vercel.app/
+
 ---
 
