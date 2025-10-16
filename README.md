@@ -1,4 +1,4 @@
-# 🏥 Durga Care - Patient Management Dashboard
+# 🏥  Jarurat Care - Patient Management Dashboard
 
 A modern hospital dashboard built with **React.js**, allowing users to view, add, and manage patient details easily.  
 This project is developed as part of an internship assignment for **Jarurat Care**.
